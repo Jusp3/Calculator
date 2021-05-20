@@ -28,7 +28,7 @@ h1 {
   color: #fff;
 }
 .container {
-  width: 293px;
+  width: 373px;
 }
 .result {
   width: 59.1%;
@@ -36,13 +36,14 @@ h1 {
 input {
   padding: 25px;
   color: rgb(255, 255, 255);
-  font-size: 1em;
+  font-size: 1.4em;
   cursor: pointer;
-  width: 70px;
+  width: 90px;
   background-color: rgb(47, 51, 50);
   border: none;
   outline: none;
   border-radius: 4px;
+  height: 90px
 }
 
 .first-row,
@@ -53,7 +54,7 @@ input {
 }
 input[type="text"] {
   background-color: rgb(47, 51, 50);
-  width: 218px;
+  width: 278px;
 }
 input[type="button"]:hover {
   background-color: rgb(160, 160, 160);

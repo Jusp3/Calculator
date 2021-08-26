@@ -26,6 +26,14 @@ body {
   width: 393px;
 }
 
+@media {
+  width: device-width;
+  zoom: 1;
+  min-zoom: 0.5;
+  max-zoom: 3;
+  user-zoom: fixed;
+}
+
 .result {
   width: 59.1%;
 }
@@ -99,4 +107,8 @@ a {
 
 .fab {
   font-size: 1.1em;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
